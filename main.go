@@ -143,6 +143,7 @@ func main() {
 	flag.Parse()
 
 	if *help {
+		fmt.Println("Be sure to read the README.md file for more information")
 		fmt.Println("Usage: find-replace [options]")
 		flag.PrintDefaults()
 		os.Exit(0)
